@@ -1,0 +1,38 @@
+.monthly_calendar{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.week{
+    height: 67px;
+    padding: 0 14px;
+    width: 100%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.week th{
+    padding: 0 8px;
+    text-align: left;
+}
+
+.month_table_six{
+    width: 100%;
+    height: 90%;
+}
+.month_table_six div{
+    height: 16.6%;
+}
+
+.month_row{
+    padding: 0 14px;
+}
+.month_row table{
+    width: 100%;
+}
+.month_row table td{
+    padding: 0 8px;
+}
