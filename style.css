@@ -28,11 +28,26 @@
 }
 
 .month_row{
+    position: relative;
     padding: 0 14px;
 }
-.month_row table{
+/* .month_row table{
+    position: relative;
     width: 100%;
-}
+    height: 100%;
+} */
 .month_row table td{
     padding: 0 8px;
+}
+.schedule_list{
+    width: 100%;
+    height: 15px;
+    position: relative;
+}
+.table_grid{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
